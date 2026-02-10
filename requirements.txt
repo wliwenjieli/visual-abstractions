@@ -1,0 +1,15 @@
+# Python 3.10.9
+pandas==1.5.3
+numpy==1.23.5
+scipy==1.15.3
+scikit-learn==1.2.1
+matplotlib==3.7.0
+seaborn==0.12.2
+pygam==0.11.0
+statsmodels==0.13.5
+torch>=2.0.0
+torchvision>=0.15.0
+shap==0.49.1
+upsetplot==0.9.0
+tqdm
+Pillow
