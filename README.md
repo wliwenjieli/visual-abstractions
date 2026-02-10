@@ -122,3 +122,15 @@ See `requirements.txt` for complete list. Key packages:
 - matplotlib, seaborn for visualization
 - torch, torchvision for model loading (extraction only)
 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+[Citation information to be added]
+
+## Contact
+
+[Contact information to be added]
