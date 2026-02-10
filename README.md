@@ -9,11 +9,24 @@
 
 ## Installation
 
+### Option 1: Using Conda (Recommended)
+
+Create and activate a conda environment with all dependencies:
+
+```bash
+conda env create -f environment.yml
+conda activate abstraction
+```
+
+### Option 2: Using pip
+
+Install dependencies with pip:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-Requires Python 3.10.9 or compatible version.
+**Requirements:** Python 3.10.9 or compatible version.
 
 ## Usage
 
@@ -55,6 +68,23 @@ The extraction pipeline uses **DeepJuice**, which is currently in private beta. 
 
 If you're interested in using DeepJuice directly, please contact the authors.
 
+### Statistical Analyses Demo
+
+The notebook `demo_analyses.ipynb` demonstrates how to run all statistical analyses:
+
+```bash
+cd submission_package
+jupyter notebook demo_analyses.ipynb
+```
+
+This notebook shows how to:
+- Run GAM (Generalized Additive Models) analyses
+- Compute feature importance via deviance reduction
+- Generate partial dependence plots
+- Run OLS regression for linear relationships
+- Apply Random Forest for non-linear patterns
+
+The notebook provides an interactive way to understand how model properties relate to abstraction capabilities.
 
 ### 1. Extract Model Embeddings and Compute Metrics
 
@@ -126,11 +156,3 @@ See `requirements.txt` for complete list. Key packages:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-[Citation information to be added]
-
-## Contact
-
-[Contact information to be added]
